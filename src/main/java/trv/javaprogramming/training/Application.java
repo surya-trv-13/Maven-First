@@ -1,7 +1,16 @@
 package trv.javaprogramming.training;
 
+import java.util.*;
+
 public class Application {
-    
+    public void greet(){
+        List<String> greetings = new ArrayList<>();
+        greetings.add("Hello");
+
+        for(String greeting : greetings){
+            System.out.println("greeting :" + greeting );
+        }
+    }
     public Application() {
         System.out.println ("Inside Application");
     }
